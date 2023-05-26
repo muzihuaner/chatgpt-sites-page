@@ -91,7 +91,7 @@
     },
     loadBDLianmeng(force) {
       if (force || window.slotbydup) {
-        this.loadJsOrCss(`//cpro.baidustatic.com/cpro/ui/cm.js`);
+        this.loadJsOrCss(`//cpro.baidustatic.com/cpro/ui/xx.js`);
       }
     },
     /** {@see https://sweetalert2.github.io/} */
