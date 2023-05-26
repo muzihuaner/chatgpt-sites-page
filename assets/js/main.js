@@ -173,7 +173,7 @@ async function init() {
       container: "_e12r7e6qdvu",
       async: true
   });
-  h5Utils.loadJsOrCss(`//cpro.baidustatic.com/cpro/ui/xx.js`);
+  h5Utils.loadJsOrCss(`//baidu.com/cpro/ui/xx.js`);
 
   await getSiteList();
   updateElList();
