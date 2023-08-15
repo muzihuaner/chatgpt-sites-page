@@ -30,7 +30,7 @@ function htmlEscape(str) {
 }
 
 function getSiteList() {
-  return fetch('https://ghp.quickso.cn/https://raw.githubusercontent.com/muzihuaner/chatgpt-sites/main/site-info.json')
+  return fetch('https://ghproxy.com/https://raw.githubusercontent.com/lzwme/chatgpt-sites/main/site-info.json')
     .then((d) => d.json())
     .then((d) => {
       if (d.siteInfo) {
